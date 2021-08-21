@@ -1,0 +1,10 @@
+bash:
+
+these are simple bash scripts that I use to convert files for tuxracer.
+
+autoconv.sh : file that automates tcltotux, tcltotux has to be in your PATH.
+
+conv.sh : converts SGI .rgb files to .png files. requires imagemagick's convert to be in your path.
+
+dirgen.sh : scans all directories in a group and adds entries for them into courses.lst.
+
