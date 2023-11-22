@@ -1,8 +1,6 @@
 tuxtools :
 
-tuxtools is a collection of bash scripts and programs that make life easier when convertion tuxracer tracks to extreme tux racer tracks.
+tuxtools is a collection of bash scripts and programs that make life easier when converting tuxracer tracks to extreme tux racer tracks.
 All code in this collections is licensed under the GPL version 3
 
-in the folder "tcltotux" you can find a simple tool to convert tuxracer course files to extreme tux racer course files.
-
-in the folder "bash" you can find some bash scripts that I use to automate conversion and adding entries
+You can find version-specific scripts in folders `0.61a` and `1.1`. `1.1` is for the commercial release of the game, and the conversion script has not been tested on all tracks. It is possible to use the 0.61 track conversion, but 3-D trees and herring will not translate correctly because of differing engine capabilities and definition files.

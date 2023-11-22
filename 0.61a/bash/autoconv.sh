@@ -4,8 +4,6 @@
 #export PATH=$PATH:/path/to/tcltotux
 
 for entry in `ls -d */ | sed '/\./d;s%/$%%'`; do
-    cd $entry
-    tcltotux
-    cd ..
+    ./tcltotux.tcl "$entry/course.tcl" > "$entry/course.dim"
 done
 

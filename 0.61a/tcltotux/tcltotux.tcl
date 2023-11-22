@@ -7,16 +7,16 @@ if { $argc ==0 } {
 
 set target [lindex $argv 0]
 
-global name ""
-global author ""
-global width ""
-global length ""
-global pwidth ""
-global plength ""
-global start_x ""
-global start_y ""
-global angle ""
-global elev_scale "" 
+set name ""
+set author ""
+set width ""
+set length ""
+set pwidth ""
+set plength ""
+set start_x ""
+set start_y ""
+set angle ""
+set elev_scale "" 
  
 proc tux_course_name {name} {
     set ::name $name
