@@ -4,8 +4,8 @@
 #https://tcl.activestate.com/
 #but I choose sto shabbily pick out coordinates
 
-#file width length file_width file_length
-if { $argc <5 } {
+#ARGS: FILE_NAME
+if { $argc != 1 } {
         puts "objconv.tcl requires one argument specifying the location of a target file"
         exit
 }
@@ -17,7 +17,7 @@ set file_width [lindex $argv 3]
 set file_length [lindex $argv 4]
 
 proc objcreate {args} {
-    #filter out objects thare are NOT herring
+    #filter out objects that are NOT herring
     if {[lindex $args 0] ne "s_object3dinst"} {
         return
     }
@@ -25,11 +25,9 @@ proc objcreate {args} {
         return
     }
 
-    puts "[lindex $args 5]"
-} 
+   set a [split "[lindex $args 5]"]
 
-proc transform {x z} {
-    return [$file_width*$x/$width] [$file_width*$x/$width]
-}
+   puts "*\[name\]herring\[x\][expr {int(abs([lindex $a 0]))}]\[z\][expr {int(abs([lindex $a 2]))}]\[height\]1.0\[diam\]1.0" 
+} 
 
 source $target 
