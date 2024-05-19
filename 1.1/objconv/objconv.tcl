@@ -11,10 +11,6 @@ if { $argc != 1 } {
 }
 
 set target [lindex $argv 0]
-set width [lindex $argv 1]
-set length [lindex $argv 2]
-set file_width [lindex $argv 3]
-set file_length [lindex $argv 4]
 
 proc objcreate {args} {
     #filter out objects that are NOT herring
