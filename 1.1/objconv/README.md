@@ -9,9 +9,10 @@
 ### Running
 `./objconv.tcl.tcl /path/to/items.tcl`
 
-### Limitations
-- Only generates `items.lst` and not the corresponding image file
-- Only generates herring locations (will be fixed)
+### Features 
+-[x] Generates herring
+-[x] Generates start/finish points
+-[ ] Generates ETR image file
 
 ## License
 *This Program is Licensed Under the GPL, version 3*
