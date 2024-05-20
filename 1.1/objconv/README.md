@@ -10,9 +10,9 @@
 `./objconv.tcl.tcl /path/to/items.tcl`
 
 ### Features 
--[x] Generates herring
--[x] Generates start/finish points
--[ ] Generates ETR image file
+- [x] Generates herring
+- [x] Generates start/finish points
+- [ ] Generates ETR image file
 
 ## License
 *This Program is Licensed Under the GPL, version 3*
