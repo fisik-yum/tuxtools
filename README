@@ -3,4 +3,8 @@ tuxtools :
 tuxtools is a collection of bash scripts and programs that make life easier when converting tuxracer tracks to extreme tux racer tracks.
 All code in this collections is licensed under the GPL version 3
 
-You can find version-specific scripts in folders `0.61a` and `1.1`. `1.1` is for the commercial release of the game, and the conversion script has not been tested on all tracks. It is possible to use the 0.61 track conversion, but 3-D trees and herring will not translate correctly because of differing engine capabilities and definition files.
+You can find version-specific scripts in folders 0.61a and 1.1. 
+
+0.61a is for the ope-source release of the game and provides bash scripts to automate bulk conversion.
+
+1.1 is for the commercial release of the game, but has not been tested on all tracks. 3-D trees and herring will not translate correctly because of differing engine capabilities.
