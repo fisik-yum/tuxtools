@@ -6,8 +6,11 @@
 ### Prerequisites
 - `Tclsh` installed to `/usr/bin/`.
 
-### Running
+### Converting track metadata
 `./tcltotux.tcl /path/to/course.tcl`
+
+### Extracting metadata
+`./tcltotux.tcl /path/to/course.tcl extract field`
 
 ## License
 *This Program is Licensed Under the GPL, version 3*

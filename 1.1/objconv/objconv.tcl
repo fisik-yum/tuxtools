@@ -17,7 +17,6 @@ set length [lindex $argv 1]
 
 proc objcreate {args} {
 
-    #filter out objects that are NOT herring
     if {[lindex $args 0] ne "s_object3dinst"} {
         return
     }
